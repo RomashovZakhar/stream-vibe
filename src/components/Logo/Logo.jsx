@@ -9,11 +9,14 @@ const Logo = (props) => {
   } = props
 
   const title = 'Home'
+  const basePath = import.meta.env.MODE === 'production'
+    ? import.meta.env.VITE_PUBLIC_PATH
+    : ''
 
   return (
     <a
       className={classNames(className, 'logo')}
-      href="/"
+      href={basePath || '/'}
       title={title}
       aria-label={title}
     >

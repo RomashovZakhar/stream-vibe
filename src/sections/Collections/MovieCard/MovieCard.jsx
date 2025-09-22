@@ -15,10 +15,16 @@ const MovieCard = (props) => {
     href = '/movie'
   } = props
 
+  const basePath = import.meta.env.MODE === 'production'
+    ? import.meta.env.VITE_PUBLIC_PATH
+    : ''
+  const isInternal = typeof href === 'string' && href.startsWith('/')
+  const finalHref = isInternal ? `${basePath}${href}` : href
+
   return (
     <a
       className='movie-card'
-      href={href}
+      href={finalHref}
       title={title}
     >
       <h3 className="visually-hidden">{title}</h3>

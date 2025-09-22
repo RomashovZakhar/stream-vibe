@@ -23,9 +23,15 @@ const Button = (props) => {
     extraAttrs,
   } = props
 
+  const basePath = import.meta.env.MODE === 'production'
+    ? import.meta.env.VITE_PUBLIC_PATH
+    : ''
+
   const isLink = href !== undefined
   const Component = isLink ? 'a' : 'button'
-  const linkProps = { href, target }
+  const isInternal = typeof href === 'string' && href.startsWith('/')
+  const finalHref = isInternal ? `${basePath}${href}` : href
+  const linkProps = { href: finalHref, target }
   const buttonProps = { type }
   const specificProps = isLink ? linkProps : buttonProps
   const title = isLabelHidden ? label : undefined
