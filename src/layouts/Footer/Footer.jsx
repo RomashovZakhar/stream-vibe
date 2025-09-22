@@ -44,22 +44,18 @@ const Footer = () => {
 
   const extraLinks = ['Terms of Use', 'Privacy Policy', 'Cookie Policy']
 
-  const basePath = import.meta.env.MODE === 'production'
-    ? import.meta.env.VITE_PUBLIC_PATH
-    : ''
-
   return (
     <footer className="footer">
       <div className="footer__inner container">
         <nav className="footer__menu">
           {menuItems.map(({ title, links, socialLinks }, index) => (
             <div className="footer__menu-column" key={index}>
-              <a className="footer__menu-title h6" href={basePath || '/'}>{title}</a>
+              <a className="footer__menu-title h6" href="/">{title}</a>
               {links?.length > 0 && (
                 <ul className="footer__menu-list">
                   {links.map((link, index) => (
                     <li className="footer__menu-item" key={index}>
-                      <a className="footer__menu-link" href={basePath || '/'}>
+                      <a className="footer__menu-link" href="/">
                         {link}
                       </a>
                     </li>
@@ -78,7 +74,7 @@ const Footer = () => {
           </p>
           <div className="footer__extra-links">
             {extraLinks.map((link, index) => (
-              <a className="footer__extra-link" href={basePath || '/'} key={index}>
+              <a className="footer__extra-link" href="/" key={index}>
                 {link}
               </a>
             ))}

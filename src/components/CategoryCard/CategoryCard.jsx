@@ -10,12 +10,8 @@ const CategoryCard = (props) => {
     badge,
   } = props
 
-  const basePath = import.meta.env.MODE === 'production'
-    ? import.meta.env.VITE_PUBLIC_PATH
-    : ''
-
   return (
-    <a className="category-card" href={`${basePath}/movies`}>
+    <a className="category-card" href="/movies">
       <div className="category-card__images">
         {images.map((imgSrc, index) => (
           <Image

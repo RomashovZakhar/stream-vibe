@@ -1,9 +1,5 @@
 import categoryItems from '@/sections/Categories/categoryItems'
 
-const basePath = import.meta.env.MODE === 'production'
-  ? import.meta.env.VITE_PUBLIC_PATH
-  : ''
-
 const collectionGroups = [
   {
     isActive: true,
@@ -904,21 +900,21 @@ const collectionGroups = [
             imgSrc: '/src/assets/images/movies/1.jpg',
             duration: '1h 30min',
             season: '4 Season',
-            href: `${basePath}/show`,
+            href: '/show',
           },
           {
             title: 'Morbius',
             imgSrc: '/src/assets/images/movies/1.jpg',
             duration: '1h 30min',
             season: '4 Season',
-            href: `${basePath}/show`,
+            href: '/show',
           },
           {
             title: 'Morbius',
             imgSrc: '/src/assets/images/movies/1.jpg',
             duration: '1h 30min',
             season: '4 Season',
-            href: `${basePath}/show`,
+            href: '/show',
           },
           {
             title: 'Morbius',
