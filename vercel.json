@@ -1,12 +1,4 @@
 {
-  "version": 2,
-  "builds": [{ "src": "dist/**", "use": "@vercel/static" }],
-  "routes": [
-    { "src": "/", "dest": "/index.html" },
-
-    // Не трогаем запросы к файлам (с точкой в пути) — это исключает assets, .js, .css и т. п.
-    { "src": "/(?!.*\\.).+",
-      "dest": "/$1.html"
-    }
-  ]
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true
 }
