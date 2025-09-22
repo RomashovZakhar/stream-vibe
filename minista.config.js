@@ -3,7 +3,7 @@ import path from 'path'
 
 export default defineConfig({
   root: '',
-  base: '/pet-project--jsx-scss-vite',
+  base: '/',
   public: 'public',
   out: 'dist',
   assets: {
