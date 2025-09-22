@@ -10,6 +10,10 @@ const Header = (props) => {
     isFixed,
   } = props
 
+  const basePath = import.meta.env.MODE === 'production'
+    ? import.meta.env.VITE_PUBLIC_PATH
+    : ''
+
   const menuItems = [
     {
       label: 'Home',
@@ -53,7 +57,7 @@ const Header = (props) => {
                     className={classNames('header__menu-link', {
                       'is-active': href === url
                     })}
-                    href={href}
+                    href={`${basePath}${href}`}
                   >
                     {label}
                   </a>

@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a89dac8-c26e-4b03-8d59-db3166818332" name="Changes" comment="" />
+    <list default="true" id="4a89dac8-c26e-4b03-8d59-db3166818332" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minista.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/minista.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Logo/Logo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo/Logo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Header/Header.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +103,7 @@
       <workItem from="1757672343321" duration="29338000" />
       <workItem from="1758186242789" duration="109000" />
       <workItem from="1758293297734" duration="5909000" />
-      <workItem from="1758533693663" duration="3732000" />
+      <workItem from="1758533693663" duration="4594000" />
     </task>
     <servers />
   </component>
