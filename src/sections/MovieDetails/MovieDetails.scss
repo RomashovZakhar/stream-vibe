@@ -37,13 +37,13 @@
     }
   }
 
-  &__info {
-    @include tablet-above {
-      position: sticky;
-      top: calc(var(--movieDetailsPaddingTop) + 20px);
-      align-self: start;
-    }
-  }
+  // &__info {
+  //   @include tablet-above {
+  //     position: sticky;
+  //     top: calc(var(--movieDetailsPaddingTop) + 20px);
+  //     align-self: start;
+  //   }
+  // }
 
   &__panel {
     display: grid;
