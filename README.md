@@ -1,6 +1,6 @@
 # Stream Vibe
 
-[screenshot](./public/screenshots/1.png)
+![screenshot](./public/screenshots/1.png)
 
 A multi‑page streaming service UI built with JSX, SCSS, and Minista (Vite under the hood). The project showcases component architecture, accessibility, responsive design, asset optimization, and partial hydration.
 
@@ -75,10 +75,10 @@ npm run preview    # preview build locally
 
 ## Screenshots
 
-[screenshot](./public/screenshots/2.png)
+![screenshot](./public/screenshots/2.png)
 
-[screenshot](./public/screenshots/3.png)
+![screenshot](./public/screenshots/3.png)
 
-[screenshot](./public/screenshots/4.png)
+![screenshot](./public/screenshots/4.png)
 
-[screenshot](./public/screenshots/5.png)
+![screenshot](./public/screenshots/5.png)
