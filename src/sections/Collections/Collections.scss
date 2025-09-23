@@ -42,6 +42,7 @@
   &__section {
     &.section {
       padding: 0;
+      row-gap: fluid(32, 24);
     }
   }
 }

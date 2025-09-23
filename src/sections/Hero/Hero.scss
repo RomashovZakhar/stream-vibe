@@ -46,10 +46,17 @@
   }
 
   &__description {
+    max-width: 760px;
     margin-bottom: fluid(50, 30);
   }
 
   &__body {
     padding-bottom: fluid(50, 20);
+
+    &-inner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
   }
 }

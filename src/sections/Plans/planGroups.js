@@ -34,7 +34,7 @@ const planGroups = [
     items: [
       {
         title: 'Basic Plan',
-        description: 'Enjoy an extensive library of movies and shows, featuring a range of content, including recently released titles.',
+        description: 'Enjoy a broad catalog of films and series with fresh titles landing regularly throughout the year.',
         price: {
           value: '$99.99',
           label: '/year',
@@ -42,7 +42,7 @@ const planGroups = [
       },
       {
         title: 'Standard Plan',
-        description: 'Access to a wider selection of movies and shows, including most new releases and exclusive content',
+        description: 'Unlock a larger library with many new releases plus selected exclusives and early access drops',
         price: {
           value: '$129.99',
           label: '/year',
@@ -50,7 +50,7 @@ const planGroups = [
       },
       {
         title: 'Premium Plan',
-        description: 'Access to a widest selection of movies and shows, including all new releases and Offline Viewing',
+        description: 'Get our fullest collection with every new release, premium extras, and offline viewing for trips',
         price: {
           value: '$149.99',
           label: '/year',
